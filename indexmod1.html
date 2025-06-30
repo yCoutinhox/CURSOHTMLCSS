@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="ImagensCURSO/FerrariLogo.png" type="image/x-icon">
+    <title>Primeiro site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <h2> Esse é o meu primeiro site sem JS incluido. </h2>
+    <p>  Essa frase é um exemplo de comor usar <strong>negrito</strong> , <em>itálico</em> e um texto <mark style="background-color: blue;">marcado</mark>.   </p>
+    <p> Esse é o meu primeiro documento HTML! (Não é mas finge que é.)</p>
+    <p> Caso eu queira quebrar uma linha, a tag break row mais conhecido como &lt;br&gt; vai fazer isso pra mim, como nesse caso aqui <br> Viu? quebrei uma linha.</p>
+    <p> Esse é um exemplo de texto <small>pequeno</small>, <del>deletado</del> e <ins>inserido</ins></p>
+    <p> Esse é um exemplo de como deixar algo "em cima" ou "embaixo" tipo potência matemática ou fórmulas químicas, x<sup>20</sup> + 3 ou h<sub>2</sub>0</p>
+    <p>Para colocar um código mais legivel, usa-se o (code) para tornar as letras monoespaçadas, ex: <code>document.getElementById</code></p>
+    <pre>
+        <code>
+            num = int(input('Digite um número'))
+                if num % 2 == 0:
+                print(f'O número {num} é par.')
+            print('Fim do programa.')
+        </code>
+    </pre>
+    <p> Citações como <q>Só sei que nada sei</q> podem ter aspas como essas pela tag &lt;q&gt;</p>
+    <p>Para abreviações temos a tag &lt;abbr&gt; e para blocos de citações temos o &lt;blockquote&gt;, Como por exemplo a sigla <abbr title="Brasil">BR</abbr></p>
+    <p>Em caso de símbolos especiais, temos como exemplo esses: 
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &dollar;
+        &real;
+        &Delta;
+        &uparrow;
+    <p>Agora em caso de emojis, procuraremos na emojipedia e colaremos (mas pode copiar o código também), então podemos fazer algo assim: 
+        🤨
+        <!--OU-->
+        &#x1F596;
+        <!--LEMBRANDO QUE O &#x TEM QUE EXISTIR PARA INDICAR PRO PC QUE É EM HEXADECIMAL.-->
+    </p>
+    </p>
+    <p>Olha só essa imagem top.</p>
+    <img src="ImagensCURSO/futebol-650.jpg" alt="Bola de Futebol">
+    <p>Pega só essa lista (ORDENADA) top dos melhores jogos que o pai ja jogou. (provavelmente esqueci de muitos e a ordem ta errada em alguns jogos).</p>
+    <ol> <!---type A a I i 1 para mudar tipo de numeração--> <!--caso queira mudar para começar no número 10 por exemplo é só colocar start 10-->
+        <li>Overwatch</li>
+        <li>R6</li>
+        <li>God Of War</li>
+        <li>Outlast 1</li>
+        <li>Formula 1 2020</li>
+        <li>Fortnite</li>
+        <li>Fifa 17</li>
+        <li>Rocket League</li>
+    </ol>
+    <p>Pega essa lista (NÃO ORDENADA) de compras nada caras.</p>
+    <ul> <!--type square circle ou disc para mudar tipo de numeração-->
+        <li>RTX 4090</li>
+        <li>PS6</li>
+        <li>GTA VI</li>
+        <li>Yate</li>
+        <li>Mansão</li>
+    </ul>
+    <!--OBS: Dá para colocar listas dentro de listas seja elas ol com ol, ul com ul, ol com ul e ul com ol, tanto faz qual tipo e quantas eu misturo-->
+    <h2> Lista de definições </h2>
+    <dt>yCoutinhox</dt>
+    <dd>O melhor jogador de r6 da história.</dd>
+    <h2> Links externos </h2>
+    <p>Para acessar um link, use a tag &lt;a&gt; com target e rel para não sobrepor o link do site, Por fim enveloparemos um link como esse do meu canal do  <a href="https://www.youtube.com/channel/UCpQL5oqCE4g4EnnaZdl03fw" target="_blank" rel="external"> youtube </a></p>
+    <p> Para acessar minha segunda página <a href="pag2.html" rel = "next"> clique aqui </a></p>
+    <p>Para colocar um link para download, é só fazer a mesma coisa que um link normal mas em vez da url de um site, será o arquivo pdf, zip ou o que você quer que seja baixado, além disso deverá ter o download = "nome do arquivo.pdf" ou zip ou qualquer coisa e por fim, type = "application/zip" ou pdf dependendo do conteúdo a ser baixado.</p>
+    <h1> Imagens Dinâmicas </h1>
+    <p> Abra esse site em diferentes dispositivos.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="ImagensCURSO/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="ImagensCURSO/foto-m.png" type="image/png">
+        <img src="ImagensCURSO/foto-g.png" alt="Imagem Flexível">
+    </picture>
+    <h1> Reproduzindo Audios</h1>
+    <audio src="midia/GTA-typebeat.mp3" controls muted autoplay ></audio>
+    <h1> Reproduzindo vídeos </h1>
+    <video src="midia/video-fut.mp4" width = "560" controls muted autoplay></video>
+    <h1> Usando vídeos do youtube </h1>
+    <p> Lembre-se que precisa de direitos autorais para isso. </p>
+    <p> USAR HEADER MAIN E FOOTER!!!! MUITO IMPORTANTE.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9bKa3M-RROo?si=-8J8MqYX1Vs1kfUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

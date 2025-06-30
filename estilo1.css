@@ -1,0 +1,88 @@
+@charset "UFV-8";
+    body{
+        background-image: linear-gradient(to right, #080C82, #03042e); 
+    }
+    header {
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.63);
+        width: 600px;
+        padding: 10px;
+        margin: auto;
+    }
+    nav{
+        background-color: #b5b5b5;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px #00000090;
+        width: 580px;
+        height: 50px;
+        padding: 1px;
+        border: 4px solid rgba(103, 92, 2, 0.711);
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.653);
+    }
+    main {
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 5px 5px 15px #010216e9;
+        width: 600px;
+        height: 400px;
+        padding: 10px;
+        margin: auto;
+        }
+    h1{
+        background-color: #3b2304;
+        color: #A87113;
+        text-align: center;
+        text-shadow: 1px 1px 5px rgb(0, 0, 0);
+        font: normal bolder 3em Arial;
+        border-width: 10px;
+        border-style: solid;
+        border-color: #180e01ad;
+        padding: 10px;
+        border-radius: 10px;
+        margin: auto;
+    }
+    p{
+        text-align: justify;
+        text-indent: 20px;
+        font: italic bold 16px Arial;
+    }
+    div{
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+    }
+    div > p {
+        display: none;
+    }
+    div:hover > p {
+        display: block;
+        background-color: aqua;
+        color: white;
+        text-align: center;
+    }
+    div:hover{
+        background-color: #080C82;
+    }
+    a {
+        text-decoration: none;
+        color: #03042e;
+    }
+    a:hover{
+        color: #080C82;
+        text-decoration: underline;
+    }
+    .copy{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+    footer > p{
+        margin: 0px;
+    }
