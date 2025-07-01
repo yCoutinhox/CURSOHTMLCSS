@@ -1,10 +1,10 @@
 @charset "UFV-8";
 
 div.quadrado{
+    display: inline block;
     border: 2px solid black;
     width: 300px;
     height: 300px;
-    display: inline block;
     border-radius: 10px;
     background-color: lightslategray;
 }
@@ -16,4 +16,13 @@ div#q2{
 }
 div#q3{
     background-image: url(ImagensCURSO/pattern001.png);
+}
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url(ImagensCURSO/wallpaper002.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
