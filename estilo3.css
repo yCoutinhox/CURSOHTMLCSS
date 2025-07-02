@@ -1,4 +1,4 @@
-@charset "UFV-8";
+@charset "UTF-8";
 
 div.quadrado{
     display: inline block;
@@ -19,10 +19,14 @@ div#q3{
 }
 body{
     height: 100vh;
-    background-color: black;
-    background-image: url(ImagensCURSO/wallpaper002.jpg);
+    background: black url('ImagensCURSO/wallpaper002.jpg') center center no-repeat fixed;
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
+}
+main{
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 15px;
 }
